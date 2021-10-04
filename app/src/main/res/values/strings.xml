@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Carpooling</string>
+    <string name="carpooling">Carpooling</string>
+    <string name="mis_amigos">Mis amigos</string>
+    <string name="alejandra">Alejandra</string>
+    <string name="ram_n">Ramón</string>
+    <string name="juan_carlos">Juan Carlos</string>
+    <string name="todo">TODO</string>
+</resources>
