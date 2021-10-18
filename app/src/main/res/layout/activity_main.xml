@@ -48,16 +48,16 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="235dp"
-        android:layout_height="56dp"
+        android:layout_height="45dp"
         android:text="@string/juan_carlos"
         android:textAlignment="center"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837" />
+        app:layout_constraintVertical_bias="0.823" />
 
     <TextView
         android:id="@+id/textView2"
@@ -75,38 +75,41 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="72dp"
-        android:layout_height="67dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59"
-        app:srcCompat="@drawable/msg" />
+        app:layout_constraintVertical_bias="0.571"
+        app:srcCompat="@drawable/msg"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="72dp"
-        android:layout_height="67dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintHorizontal_bias="0.907"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.724"
-        app:srcCompat="@drawable/msg" />
+        app:layout_constraintVertical_bias="0.701"
+        app:srcCompat="@drawable/msg"
+        android:contentDescription="@string/todo" />
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="72dp"
-        android:layout_height="67dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.899"
+        app:layout_constraintHorizontal_bias="0.909"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85"
-        app:srcCompat="@drawable/msg" />
+        app:layout_constraintVertical_bias="0.823"
+        app:srcCompat="@drawable/msg"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
