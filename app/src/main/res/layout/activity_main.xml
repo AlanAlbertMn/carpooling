@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!-- imagen superior de la ventana de Mis amigos-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="249dp"
@@ -18,6 +19,7 @@
         app:layout_constraintVertical_bias="0.119"
         app:srcCompat="@drawable/amigos" />
 
+    <!--Etiqueta de texto Mis amigos-->
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -30,7 +32,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.327" />
-
+    <!-- Primer resultado de los amigos del usuario iniciado-->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="236dp"
@@ -44,7 +46,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.709" />
-
+    <!-- Segundo resultado de los amigos del usuario iniciado-->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="235dp"
@@ -58,7 +60,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.823" />
-
+    <!-- Tercer resultado de los amigos del usuario iniciado-->
     <TextView
         android:id="@+id/textView2"
         android:layout_width="237dp"
@@ -72,7 +74,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.579" />
-
+    <!-- Imagen para contactar con el usuario 1-->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="45dp"
@@ -85,7 +87,7 @@
         app:layout_constraintVertical_bias="0.571"
         app:srcCompat="@drawable/msg"
         android:contentDescription="@string/todo" />
-
+    <!-- Imagen para contactar con el usuario 2-->
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="45dp"
@@ -98,7 +100,7 @@
         app:layout_constraintVertical_bias="0.701"
         app:srcCompat="@drawable/msg"
         android:contentDescription="@string/todo" />
-
+    <!-- Imagen para contactar con el usuario 3-->
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="45dp"
